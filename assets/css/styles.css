@@ -1,0 +1,96 @@
+body::-webkit-scrollbar {
+    width: 0.4em;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+   
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(90, 80, 36);
+    outline: 1px solid slategrey;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(170, 120, 221);
+    font-family: 'Roboto',serif;
+}
+
+header {
+    background-image: url('../imgs/fondo.jpg');
+    background-size: cover;
+    height: 250px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 100px;
+    color: rgb(124, 84, 151);
+    ;
+    text-shadow: 5px 5px rgb(115, 0, 121);
+}
+
+section {
+    flex-flow: wrap column;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 30px 30px 30px 30px;
+}
+
+section .container {
+    display: flex;
+    flex-direction: row;
+}
+
+.contariner .card {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.card .card-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.card .card-img img {
+    height: 200px;
+    width: 200px;
+    border-radius: 5%;
+   }
+
+.card-text {
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    text-align: center;
+}
+
+.card-text p{
+    padding: 0.5rem;
+}
+
+footer {
+    background-color: rgb(111, 87, 146);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 30px 30px 30px;
+    font-size: 20px
+}
+
+.footertext {
+    color: rgb(255, 255, 255);
+}
